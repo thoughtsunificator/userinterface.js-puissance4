@@ -1,0 +1,25 @@
+{
+	"name": "userinterface.js-puissance4",
+	"version": "1.0.0",
+	"description": "A demo application made with userinterface.js ",
+	"scripts": {
+		"start": "browser-sync -s -w  --no-ui --no-online --no-notify --no-open",
+		"test": "nodeunit"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/thoughtsunificator/userinterface.js-puissance4.git"
+	},
+	"author": "Romain Lebesle <oss@thoughtsunificator.me> (https://thoughtsunificator.me)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/thoughtsunificator/userinterface.js-puissance4/issues"
+	},
+	"homepage": "https://github.com/thoughtsunificator/userinterface.js-puissance4#readme",
+	"devDependencies": {
+		"browser-sync": "^2.26.7",
+		"eslint": "^7.0.0",
+		"nodeunit": "^0.11.3",
+		"rewire": "^5.0.0"
+	}
+}

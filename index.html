@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>userinterface.js-puissance4</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="./lib/css-generics/index.css">
+	<link rel="stylesheet" type="text/css" href="./resource/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="./resource/puissance4.css">
+
+	<script type="text/javascript">
+		puissance4 = {}
+	</script>
+
+	<script type="text/javascript" src="./src/object/cell.js"></script>
+	<script type="text/javascript" src="./src/object/color.js"></script>
+	<script type="text/javascript" src="./src/object/column.js"></script>
+	<script type="text/javascript" src="./src/object/move.js"></script>
+	<script type="text/javascript" src="./src/object/game.js"></script>
+
+	<script src="./lib/userinterface.js/src/userinterface.js"></script>
+
+	<script>
+		window.addEventListener("load", () => {
+			UserInterface.runModel("welcome", { parentNode: document.body , bindingArgs:[{
+				columns: 7,
+				cells: 6,
+				colors: [
+					{ name: "Omega", value: "red" },
+					{ name: "Alpha", value: "yellow" }
+				]
+			}]})
+		})
+	</script>
+
+	<script type="text/javascript" src="./src/userinterface/action.js"></script>
+	<script type="text/javascript" src="./src/userinterface/action.binding.js"></script>
+	<script type="text/javascript" src="./src/userinterface/cell.js"></script>
+	<script type="text/javascript" src="./src/userinterface/cell.binding.js"></script>
+	<script type="text/javascript" src="./src/userinterface/column.js"></script>
+	<script type="text/javascript" src="./src/userinterface/column.binding.js"></script>
+	<script type="text/javascript" src="./src/userinterface/indicator.js"></script>
+	<script type="text/javascript" src="./src/userinterface/indicator.binding.js"></script>
+	<script type="text/javascript" src="./src/userinterface/mini-slot.js"></script>
+	<script type="text/javascript" src="./src/userinterface/game.js"></script>
+	<script type="text/javascript" src="./src/userinterface/game.binding.js"></script>
+	<script type="text/javascript" src="./src/userinterface/scoreboard.js"></script>
+	<script type="text/javascript" src="./src/userinterface/scoreboard.binding.js"></script>
+	<script type="text/javascript" src="./src/userinterface/welcome.js"></script>
+	<script type="text/javascript" src="./src/userinterface/welcome.binding.js"></script>
+
+</head>
+<body>
+</body>
+</html>

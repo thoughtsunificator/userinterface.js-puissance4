@@ -1,0 +1,21 @@
+body {
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  place-items: center center;
+  background-color: #1c1010;
+  color: white;
+}
+
+button {
+	background-color: #402222;
+	padding: 8px;
+	border-radius: 5px;
+	color: white;
+	border: none;
+	border-bottom: 2px solid #333030;
+}
+
+button:hover {
+	background-color: #482a2a;
+}

@@ -1,0 +1,6 @@
+[submodule "lib/userinterface.js"]
+	path = lib/userinterface.js
+	url = https://github.com/thoughtsunificator/userinterface.js.git
+[submodule "lib/css-generics"]
+	path = lib/css-generics
+	url = https://github.com/thoughtsunificator/css-generics.git
